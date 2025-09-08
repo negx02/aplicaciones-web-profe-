@@ -4,15 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Esta es mi primera página HTML" />
+    <link rel="stylesheet" href="css/style.css">
     <title>Este es mi primero HTML</title>
   </head>
   <body>
-    <header>
+    <header id="header">
       <h1>Este es mi portafolio</h1>
       <p>Mi nombre es Aarón León</p>
+      <div>
+        <img src="images/meme-1.jpg" alt="Meme de mujer diciendo WHAT!" width="60" />
+        <img src="images/meme-2.jpg" alt="Meme troll face" height="60" />
+      </div>
+      <div>
+        <img src="images/meme-3.jpg" alt="Señor muriendose de risa" height="60" />
+      </div>
     </header>
     <main>
-      <section>
+      <section id="header">
         <h2>Sobre mí</h2>
         <article>
           <h3>Biografía</h3>
@@ -23,7 +31,7 @@
         </article>
       </section>
       <section>
-        <h2>Proyectos</h2>
+        <h2 class="esta-es-una-clase">Proyectos</h2>
         <ul>
           <li><em>Proyecto 1:</em> Descripción del proyecto 1</li>
           <li><strong>Proyecto 2:</strong> Descripción del proyecto 2</li>
@@ -36,7 +44,10 @@
           <a href="mailto:aaron.leon.92313@potros.itson.edu.mx">Enviar un correo</a>
         </div>
         <div>
-          <a href="https://www.linkedin.com/in/aaronleon">Mi LinkedIn</a>
+          <a href="https://www.linkedin.com/in/aaronleon" referrerpolicy="no-referrer ">Mi LinkedIn</a>
+          <a href="https://www.linkedin.com/in/aaronleon" rel="noopener noreferrer" target="_blank">Mi LinkedIn</a>
+          <a href="/contacto.html" target="_parent">Contacto</a>
+
         </div>
       </section>
     </main>
