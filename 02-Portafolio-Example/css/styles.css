@@ -37,9 +37,11 @@ body {
             font-size: 14px;
             font-weight: bold;
             transition: transform 0.3s ease-in-out;
+            
 
             &:hover {
                 transform: translateY(-3px);
+
             }
         }
 
@@ -95,7 +97,7 @@ main section div {
     text-transform: uppercase;
 }
 .card-footer{
-    height: 76px;
+    height: 56px;
     width: 100%;
     background-color: white;
     margin-top: auto;
@@ -103,15 +105,6 @@ main section div {
     flex-direction: row;
     justify-content: space-around; 
 
-    & div:nth-child(1) {
-        font-weight: bold;
-    }
-
-    & div:nth-child(2) {
-        display: flex;       
-        flex-direction: row;
-        gap: 10px;
-    }
 }
 
 hr {
@@ -136,4 +129,22 @@ hr {
 .card-footer img {
     width: 30px;
     height: 30px;
+} 
+
+.card-footer .Social-media img:hover {
+        display: flex;       
+        flex-direction: row; 
+        gap: 10px;
+    }
+
+.info {
+    width: 412px;
+    height: 542px;
+    background: #ffffff;
+
+}
+
+article h2  {
+    font-size: 40px;
+    white-space: pre-line;
 }
